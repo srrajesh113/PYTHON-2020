@@ -6,6 +6,7 @@ Created on Sun May 17 21:17:36 2020
 """
 
 def playgame():
+    print("\n************welcome to tic-tac-toe game**************\n")
     lists=["player1 for (x)","player2 for (o)"]
     line1=[".",".","."]
     line2=[".",".","."]
@@ -98,3 +99,4 @@ def playgame():
             print('\t',line3[0],'\t',line3[1],'\t',line3[2],'\n')
           
 playgame()
+
